@@ -1,0 +1,31 @@
+/* Within style.css:
+Style the background
+Give the site a new background color
+Style the text
+Change the font
+Make your headers bold
+Change the color
+Style your images
+Customize the height and width
+Put a border around your images
+If you have time add other styling */
+
+body{
+    background-color: rgb(224, 243, 213);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 3%;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    color:rgb(4, 4, 32);
+}
+
+img{
+    max-width: 200px;
+    min-width: 150px;
+    height: auto;
+    margin: auto;
+    border: 5px green dashed;
+}
+
